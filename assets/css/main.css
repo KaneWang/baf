@@ -2229,7 +2229,7 @@ input, select, textarea {
 			#main > section.cover {
 				padding: 10em 0;
 				background-size: cover;
-				background-position: center center;
+				background-position: left center;
 			}
 
 			#main > section.one {
