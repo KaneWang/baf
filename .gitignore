@@ -1,5 +1,9 @@
-docs/~*
+.build/
+bafun.zip
+
+.ebextensions/
 .idea/
+
 # Logs
 logs
 *.log
