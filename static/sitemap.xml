@@ -9,27 +9,12 @@
 
 <url>
   <loc>http://bayareafuns.com/</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <lastmod>2018-11-13T20:22:08+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://bayareafuns.com/index.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/sitemaphtml.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/weekendhighlight.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>http://bayareafuns.com/bayareakidsfuns.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <lastmod>2018-11-13T20:34:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -39,7 +24,7 @@
 </url>
 <url>
   <loc>http://bayareafuns.com/bayareaparent.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <lastmod>2018-11-13T20:35:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -88,91 +73,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://bayareafuns.com/bayareafunplaces.html</loc>
-  <lastmod>2018-11-09T22:47:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/sodaspring.html</loc>
-  <lastmod>2018-11-09T22:47:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/guiguyouwan.html</loc>
-  <lastmod>2018-11-09T22:47:22+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/magical-bridge.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/cdm.html</loc>
-  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/happyhollow.html</loc>
-  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/billybeez.html</loc>
-  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/sports.html</loc>
-  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/pavc.html</loc>
-  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/iceskating.html</loc>
-  <lastmod>2018-11-12T14:11:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/hiking.html</loc>
-  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/swimming.html</loc>
-  <lastmod>2018-11-12T14:11:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/hukou.html</loc>
-  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/lvxingzheng.html</loc>
-  <lastmod>2018-11-12T14:11:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/newtous.html</loc>
-  <lastmod>2018-11-12T14:58:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/driverlicense.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/pixiaohai.html</loc>
-  <lastmod>2018-11-12T14:11:44+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>http://bayareafuns.com/weekendfun.html</loc>
   <lastmod>2018-11-12T14:42:46+00:00</lastmod>
   <priority>0.80</priority>
@@ -184,17 +84,117 @@
 </url>
 <url>
   <loc>http://bayareafuns.com/classes.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <lastmod>2018-11-13T20:25:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/sports.html</loc>
+  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://bayareafuns.com/brithdayparty.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <lastmod>2018-11-13T20:23:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://bayareafuns.com/coyotehillsregionalpark.html</loc>
+  <loc>http://bayareafuns.com/hukou.html</loc>
+  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/newtous.html</loc>
+  <lastmod>2018-11-12T14:58:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/index.html</loc>
+  <lastmod>2018-11-13T20:22:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/sitemaphtml.html</loc>
   <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/weekendhighlight.html</loc>
+  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/bayareafunplaces.html</loc>
+  <lastmod>2018-11-09T22:47:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/sodaspring.html</loc>
+  <lastmod>2018-11-09T22:47:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/guiguyouwan.html</loc>
+  <lastmod>2018-11-09T22:47:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/magical-bridge.html</loc>
+  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/cdm.html</loc>
+  <lastmod>2018-11-13T20:36:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/happyhollow.html</loc>
+  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/billybeez.html</loc>
+  <lastmod>2018-11-13T20:36:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/pavc.html</loc>
+  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/iceskating.html</loc>
+  <lastmod>2018-11-12T14:11:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/hiking.html</loc>
+  <lastmod>2018-11-12T14:11:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/swimming.html</loc>
+  <lastmod>2018-11-12T14:11:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/lvxingzheng.html</loc>
+  <lastmod>2018-11-12T14:11:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/driverlicense.html</loc>
+  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/pixiaohai.html</loc>
+  <lastmod>2018-11-12T14:11:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/coyotehillsregionalpark.html</loc>
+  <lastmod>2018-11-13T20:26:13+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -208,19 +208,19 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://bayareafuns.com/stanforddishhikingtrail.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://bayareafuns.com/bahikerkids.html</loc>
-  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://bayareafuns.com/creditcard.html</loc>
   <lastmod>2018-11-12T14:40:16+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/stanforddishhikingtrail.html</loc>
+  <lastmod>2018-11-12T14:42:46+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://bayareafuns.com/bahikerkids.html</loc>
+  <lastmod>2018-11-13T20:33:58+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
