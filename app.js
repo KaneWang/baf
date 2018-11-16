@@ -26,6 +26,7 @@ if (cluster.isMaster) {
     var AWS = require('aws-sdk');
     var express = require('express');
     var bodyParser = require('body-parser');
+    var commentRouter = require('./routes/commentRouter');
 
     AWS.config.region = process.env.REGION
 
@@ -42,6 +43,9 @@ if (cluster.isMaster) {
     // app.use(express.static('static'));
     var path = require('path');
     app.use(express.static(path.join(__dirname, 'static')));
+    app.use(bodyParser.json());
+
+    app.use('/comment', commentRouter);
     app.get('/', function(req, res) {
         res.render('index', {
             static_path: 'static',
