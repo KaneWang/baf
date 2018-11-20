@@ -46,6 +46,26 @@ if (cluster.isMaster) {
     app.use(express.static(path.join(__dirname, 'static')));
     app.use(bodyParser.json());
 
+    const MongoClient = require('mongodb').MongoClient;
+    const assert = require('assert');
+    var config = require("./config.json");
+    var mongo_pwd = config.mongo_pwd;
+    const url = 'mongodb://admin:'+mongo_pwd+'@daidaius-shard-00-00-5xslt.gcp.mongodb.net:27017,daidaius-shard-00-01-5xslt.gcp.mongodb.net:27017,daidaius-shard-00-02-5xslt.gcp.mongodb.net:27017/test?ssl=true&replicaSet=daidaius-shard-0&authSource=admin&retryWrites=true'
+    const dbname = "bayareafuns";
+    MongoClient.connect(url, (err, client) => {
+        assert.equal(err, null);
+        console.log('Connected correctly to the server');
+        const db = client.db(dbname);
+        const collection = db.collection('article');
+        collection.find({}).toArray((err, docs) => {
+            assert.equal(err, null);
+            console.log('Found:\n');
+            console.log(docs);
+
+            client.close();
+        })
+    });
+
     app.use('/comment', commentRouter);
     app.use('/sendmessage', sendMessageRouter);
     app.get('/', function(req, res) {
