@@ -19,15 +19,36 @@ sendMessageRouter.route('/')
     // }
     // console.log('comment:' + item.comment + ' name:' + item.name + ' email:' + item.email + ' website:' + item.website);
         console.log(req.body);
-        var mail = require("nodemailer").mail;
 
-        mail({
-            from: "Bayarea Funs ✔ <funsbayarea@gmail.com>", // sender address
-            to: "funsbayarea@gmail.com", // list of receivers
-            subject: "Message ✔", // Subject line
-            text: req.body, // plaintext body
-            html: "<b>req.body</b>" // html body
+        var config = require("../config.json");
+        var pwd = config.gmail_pwd;
+        // console.log("read from config json file:" + pwd);
+
+        var nodemailer = require('nodemailer');
+        var transporter = nodemailer.createTransport("SMTP", {
+            service: 'gmail',
+            auth: {
+                user: 'funsbayarea@gmail.com',
+                pass: pwd,
+                tls: true
+            }
         });
+
+        var mailOptions = {
+            from: 'funsbayarea@gmail.com',
+            to: 'funsbayarea@gmail.com',
+            subject: 'Sending user feedback using Node.js',
+            text: JSON.stringify(req.body)
+        };
+
+        transporter.sendMail(mailOptions, function(error, info){
+            if (error) {
+                console.log(error);
+            } else {
+                console.log('Email sent: ' + info.response);
+            }
+        });
+
         res.end('Done!');
     });
 
