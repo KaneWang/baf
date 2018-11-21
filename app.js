@@ -46,6 +46,7 @@ if (cluster.isMaster) {
     app.use(express.static(path.join(__dirname, 'static')));
     app.use(bodyParser.json());
 
+    // [ mongo db
     const MongoClient = require('mongodb').MongoClient;
     const assert = require('assert');
     var config = require("./config.json");
@@ -65,6 +66,7 @@ if (cluster.isMaster) {
             client.close();
         })
     });
+    // ]
 
     app.use('/comment', commentRouter);
     app.use('/sendmessage', sendMessageRouter);
