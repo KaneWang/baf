@@ -131,13 +131,16 @@
 										<div class="card-body">
 											<ul class="list list-unstyled">
 												<li class="mb-2">
-													<a href="#top" class="font-weight-semibold"><i class="fas fa-angle-right ml-1 mr-1 pr-2"></i> Introduction</a>
+													<a href="#top" class="font-weight-semibold"><i class="fas fa-angle-right ml-1 mr-1 pr-2"></i>Introduction</a>
 												</li>
 												<li class="mb-2">
-													<a href="#gallery" class="font-weight-semibold"><i class="fas fa-angle-right ml-1 mr-1 pr-2"></i> Gallery</a>
+													<a href="#gallery" class="font-weight-semibold"><i class="fas fa-angle-right ml-1 mr-1 pr-2"></i>Gallery</a>
 												</li>
 												<li class="mb-2">
-													<a href="#lessons" class="font-weight-semibold"><i class="fas fa-angle-right ml-1 mr-1 pr-2"></i> Lessons</a>
+													<a href="#lessons" class="font-weight-semibold"><i class="fas fa-angle-right ml-1 mr-1 pr-2"></i>Lessons</a>
+												</li>
+												<li class="mb-2">
+													<a href="#newmember" class="font-weight-semibold"><i class="fas fa-angle-right ml-1 mr-1 pr-2"></i>Join US</a>
 												</li>
 											</ul>
 										</div>
@@ -236,6 +239,35 @@
 					<iframe width="290" height="100%"
 							src="https://www.youtube.com/embed/5WSoD1deUFY">
 					</iframe>
+				</div>
+			</section>
+			<section id="newmember" class="eleven">
+				<div class="container">
+					<header>
+						<h2>Join US</h2>
+					</header>
+					<form class="contact-form" action="sendmessage" method="POST">
+						<div class="contact-form-success alert alert-success d-none">
+							<strong>Success!</strong> Your message has been sent to us.
+						</div>
+						<div class="contact-form-error alert alert-danger d-none">
+							<strong>Error!</strong> There was an error sending your message.
+							<span class="mail-error-message d-block"></span>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" placeholder="Name" required>
+							</div>
+							<div class="form-group col-md-6">
+								<input type="text" value="" data-msg-required="Please enter your cell phone number." maxlength="100" class="form-control" name="phone" id="phone" placeholder="Cell Phone" required>
+							</div>
+						</div>
+						<div class="form-row mt-2">
+							<div class="col">
+								<input type="submit" value="SEND MESSAGE" class="btn btn-primary btn-rounded btn-4 font-weight-semibold text-0" data-loading-text="Loading...">
+							</div>
+						</div>
+					</form>
 				</div>
 			</section>
 
