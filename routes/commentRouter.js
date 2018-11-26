@@ -1,3 +1,5 @@
+global.atob = require("atob");
+
 const express = require("express");
 const bodyParser = require("body-parser");
 
@@ -20,7 +22,7 @@ commentRouter.route('/')
     // console.log('comment:' + item.comment + ' name:' + item.name + ' email:' + item.email + ' website:' + item.website);
         console.log(req.body);
         var config = require("../config.json");
-        var pwd = config.gmail_pwd;
+        var pwd = atob(config.gmail_pwd);
         // console.log("read from config json file:" + pwd);
 
         var nodemailer = require('nodemailer');

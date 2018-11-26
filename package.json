@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "assert": "^1.4.1",
+    "atob": "^2.1.2",
     "aws-sdk": "latest",
     "body-parser": "latest",
     "ejs": "^2.6.1",
